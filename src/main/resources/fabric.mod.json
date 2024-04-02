@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "totemandshieldswitcher",
+  "version": "${version}",
+
+  "name": "Totem and Shield Switcher",
+  "description": "Easily switch between your Totem and shield in your offhand.",
+  "authors": [
+    "RacialGamer"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/cpvp",
+    "sources": "https://github.com/RacialGamer/Small-pop"
+  },
+
+  "license": "ARR",
+  "icon": "assets/totemandshieldswitcher/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.racialgamer.totemandshieldswitcher.TotemAndShieldSwitcher"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric-api": "*",
+    "minecraft": "~1.20.4",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
